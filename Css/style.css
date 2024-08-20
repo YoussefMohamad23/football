@@ -1,0 +1,59 @@
+.parent{width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../12118511644_532f5d0c5d_b.jpg);
+  padding-bottom: 20px;
+  position: relative;
+}
+.navbar-brand{font-size: 30px;}
+.navbar-toggler{
+    background-color: rgb(228, 228, 226);
+}
+.navbar-toggler-icon{
+  background-color: rgba(12, 12, 12, 0.938);
+}
+
+.child1{
+    background-color: rgba(0, 0, 1, 0.5);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+.child2{
+position: absolute;
+top: 30%;
+left: 45%;
+color: azure;
+}
+.child3{position: absolute;
+    top: 35%;
+    left: 45% ;
+    color: azure;
+}
+.child3 h1::after{
+    content: "|";
+    animation-name: club;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes club {
+0%{content: "|";}
+10%{content: " |";}
+20%{content: " C|"}
+30%{content: " Cl|"}
+40%{content: " Clu|"}
+50%{content: " Club|"}
+60%{content: " Clu|"}
+70%{content:  " Cl|"}
+80%{content: " C|"}
+ 
+}
+.child4{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 25px;
+
+}
